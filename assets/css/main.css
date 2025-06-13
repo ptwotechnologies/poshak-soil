@@ -567,18 +567,18 @@ p.form-message.success {
   margin-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 46px;
+  font-size: 32px;
   line-height: 56px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-title h2 {
-    font-size: 40px;
+    font-size: 32px;
     line-height: 50px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-title h2 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 41px;
   }
 }
@@ -826,7 +826,7 @@ p.form-message.success {
 */
 /*Style 1*/
 .hero-wrapper h1 {
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 700;
   line-height: 85px;
   color: #fff;
@@ -834,26 +834,26 @@ p.form-message.success {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-wrapper h1 {
-    font-size: 55px;
+    font-size: 48px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-wrapper h1 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 60px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero-wrapper h1 {
     margin-top: 70px;
-    font-size: 40px;
+    font-size: 34px;
     line-height: 60px;
   }
 }
 @media (max-width: 575px) {
   .hero-wrapper h1 {
     margin-top: 70px;
-    font-size: 40px;
+    font-size: 34px;
     line-height: 60px;
   }
 }
