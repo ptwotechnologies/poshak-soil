@@ -1229,6 +1229,10 @@ p.form-message.success {
 }
 
 .single-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75vh;
   background-color: #fff;
   padding: 25px 25px 30px 25px;
   margin-bottom: 25px;
@@ -1238,6 +1242,7 @@ p.form-message.success {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+
 .single-service h3 {
   font-size: 20px;
   line-height: 30px;
@@ -1316,9 +1321,11 @@ p.form-message.success {
   transform: rotate(-45deg);
 }
 
+
 .single-service-large {
+  height: 60vh;
   background-color: var(--tt-theme-3);
-  padding: 46px 30px;
+  padding:100px 50px;
 }
 .single-service-large h3 {
   font-size: 30px;
@@ -1376,6 +1383,9 @@ p.form-message.success {
     padding-right: 0;
     padding-left: 0;
   }
+  .single-service-large {
+    height: auto;
+   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .about-area .pr-50 {
@@ -2324,6 +2334,7 @@ p.form-message.success {
 }
 
 .single-testimonial {
+  height: 75vh;
   background-color: #fff;
   padding: 36px 56px;
   margin-bottom: 20px;
