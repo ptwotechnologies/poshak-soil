@@ -2651,9 +2651,9 @@ a.play-btn {
   background-color: var(--tt-theme-3);
   color: #fff;
   font-family: var(--tt-ff-lora);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  padding: 22px 40px;
+  padding: 15px 20px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -o-border-radius: 50px;
