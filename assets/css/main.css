@@ -386,34 +386,51 @@ button {
 
 #scrollUp {
   bottom: 100px;
-  right: 175px;
-  width: 50px;
-  height: 61px;
+  right: 70px;
+  width: 60px;
+  height: 60px;
   line-height: 61px;
   font-size: 18px;
   text-align: center;
-  border-radius: 20px 20px 0 0;
-  background-color: var(--tt-theme-3);
-  color: #fff;
+  border-radius: 50%;
+  background-color: var(--tt-grey-4);
+  color:black;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   #scrollUp {
-    right: 60px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    right: 30px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #scrollUp {
-    right: 50px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    right: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   #scrollUp {
-    right: 50px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    right: 20px;
   }
 }
 @media (max-width: 575px) {
   #scrollUp {
-    right: 50px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    right: 20px;
   }
 }
 
@@ -2252,8 +2269,8 @@ p.form-message.success {
 */
 .single-choose-us {
   background-color: #fff;
-  padding-top: 53px;
-  padding-bottom: 53px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   -webkit-box-shadow: 0px 3px 81px 0px rgba(6, 6, 6, 0.09);
   -moz-box-shadow: 0px 3px 81px 0px rgba(6, 6, 6, 0.09);
   -ms-box-shadow: 0px 3px 81px 0px rgba(6, 6, 6, 0.09);
@@ -2285,11 +2302,15 @@ p.form-message.success {
 }
 
 .single-choose-us-content {
-  padding: 0 25px 40px 25px;
+  text-align: center;
+  padding: 0 15px 20px 25px;
 }
 
 .single-choose-us-icon {
-  padding: 45px 25px 0 25px;
+  display:flex;
+  align-self: center;
+  justify-self: center;
+  padding: 20px 25px 0 25px;
 }
 
 .single-choose-us-content h3 {
@@ -4085,7 +4106,6 @@ a.l-read-more i {
 
 .footer-info a {
   display: block;
-  font-size: 20px;
   color: #eeeeee;
   margin-bottom: 28px;
 }
@@ -4129,9 +4149,9 @@ a.l-read-more i {
 
 .footer-social h5 {
   display: inline-block;
-  color: var(--tt-text-2);
+  color: white;
   margin-right: 15px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 .footer-social a {
   display: inline-block;
